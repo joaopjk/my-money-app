@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3e0758-984d-4ad7-b33b-0070a9e23043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/billingCycle/itemList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/billingCycle/summary.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/form/input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/auth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/authActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/form/inputAuth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/template/navBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/authOrApp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/config/cors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/config/cors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/src/config/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/billingCycle/billingCycle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/billingCycle/billingCycle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/billingCycle/billingCycleActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/billingCycle/billingCycleActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/billingCycle/billingCycleForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/billingCycle/billingCycleForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/billingCycle/billingCycleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/billingCycle/billingCycleList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/template/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/template/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/template/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/template/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +43,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.31" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JS/NWL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +78,7 @@
       <workItem from="1614521325291" duration="7701000" />
       <workItem from="1614546759461" duration="725000" />
       <workItem from="1614732164321" duration="92000" />
+      <workItem from="1618671757002" duration="4141000" />
     </task>
     <servers />
   </component>
